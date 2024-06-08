@@ -37,12 +37,13 @@ Partial Class Form1
         '
         'ListaNumeros
         '
+        Me.ListaNumeros.BackColor = System.Drawing.SystemColors.Info
         Me.ListaNumeros.FormattingEnabled = True
         Me.ListaNumeros.HorizontalScrollbar = True
-        Me.ListaNumeros.Location = New System.Drawing.Point(104, 5)
+        Me.ListaNumeros.Location = New System.Drawing.Point(113, 40)
         Me.ListaNumeros.MultiColumn = True
         Me.ListaNumeros.Name = "ListaNumeros"
-        Me.ListaNumeros.Size = New System.Drawing.Size(125, 446)
+        Me.ListaNumeros.Size = New System.Drawing.Size(125, 303)
         Me.ListaNumeros.TabIndex = 1
         '
         'Form1
