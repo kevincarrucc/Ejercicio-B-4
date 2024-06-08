@@ -22,40 +22,42 @@ Partial Class Form1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Boton = New System.Windows.Forms.Button()
+        Me.ListaNumeros = New System.Windows.Forms.ListBox()
         Me.SuspendLayout()
         '
-        'Button1
+        'Boton
         '
-        Me.Button1.Location = New System.Drawing.Point(383, 216)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Boton.Location = New System.Drawing.Point(383, 216)
+        Me.Boton.Name = "Boton"
+        Me.Boton.Size = New System.Drawing.Size(75, 23)
+        Me.Boton.TabIndex = 0
+        Me.Boton.Text = "Ejecutar"
+        Me.Boton.UseVisualStyleBackColor = True
         '
-        'ListBox1
+        'ListaNumeros
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(104, 5)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(125, 446)
-        Me.ListBox1.TabIndex = 1
+        Me.ListaNumeros.FormattingEnabled = True
+        Me.ListaNumeros.HorizontalScrollbar = True
+        Me.ListaNumeros.Location = New System.Drawing.Point(104, 5)
+        Me.ListaNumeros.MultiColumn = True
+        Me.ListaNumeros.Name = "ListaNumeros"
+        Me.ListaNumeros.Size = New System.Drawing.Size(125, 446)
+        Me.ListaNumeros.TabIndex = 1
         '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(805, 450)
-        Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.ListaNumeros)
+        Me.Controls.Add(Me.Boton)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents Boton As Button
+    Friend WithEvents ListaNumeros As ListBox
 End Class
